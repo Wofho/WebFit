@@ -1,5 +1,5 @@
 <?php
-error_reporting(E_ALL); ini_set('display_errors', true);
+error_reporting(E_ALL); @ini_set('display_errors', true);
 	$pages = array(
 		'0'	=> array('id' => '1', 'alias' => 'Home', 'file' => '1.php'),
 		'1'	=> array('id' => '4', 'alias' => 'Exercises', 'file' => '4.php'),
@@ -9,7 +9,9 @@ error_reporting(E_ALL); ini_set('display_errors', true);
 		'5'	=> array('id' => '6', 'alias' => 'Back', 'file' => '6.php'),
 		'6'	=> array('id' => '7', 'alias' => 'Legs', 'file' => '7.php'),
 		'7'	=> array('id' => '8', 'alias' => 'login', 'file' => '8.php'),
-		'8'	=> array('id' => '9', 'alias' => 'signup', 'file' => '9.php')
+		'8'	=> array('id' => '9', 'alias' => 'signup', 'file' => '9.php'),
+		'9'	=> array('id' => '10', 'alias' => 'checklogin', 'file' => '10.php'),
+		'10'	=> array('id' => '11', 'alias' => 'check', 'file' => '11.php')
 	);
 	$forms = array(
 
@@ -37,7 +39,18 @@ error_reporting(E_ALL); ini_set('display_errors', true);
 		include dirname(__FILE__).'/blog.php';
 	else if ($page) {
 		$fl = dirname(__FILE__).'/'.$page['file'];
-		if (is_file($fl)) include $fl;
+		if (is_file($fl)) {
+			ob_start();
+			include $fl;
+			$out = ob_get_clean();
+			$ga_out = '';
+			if (is_file($ga_file = dirname(__FILE__).'/ga_code') && $ga_code = file_get_contents($ga_file)) {
+				$ga_out = str_replace('{{ga_code}}', $ga_code, file_get_contents(dirname(__FILE__).'/ga.php'));
+			}
+			$out = str_replace('{{ga_code}}', $ga_out, $out);
+			header('Content-type: text/html; charset=utf-8', true);
+			echo $out;
+		}
 	} else {
 		header("Content-type: text/html; charset=utf-8", true, 404);
 		echo "<!DOCTYPE html>\n";

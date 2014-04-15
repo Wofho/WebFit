@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=1005" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-		<meta name="generator" content="Zyro Web Site Builder" />
+		<meta name="generator" content="Zyro - Website Builder" />
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
@@ -57,9 +57,9 @@
 		#wb_element_instance87 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
 		#wb_element_instance87 ul ul { background: #db0335 none repeat scroll left top; }
 		#wb_element_instance87 li { margin: 0px 10px 0px 10px; }
-		#wb_element_instance87 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
-		#wb_element_instance87 li a:hover { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
-		#wb_element_instance87 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance87 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
+		#wb_element_instance87 li:hover > a, #wb_element_instance87 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance87 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
 		#wb_element_instance91 a { width: 100%; height: 100%; font-family: Helvetica,Arial,sans-serif; font-size: 14px; text-align: center; border: 1px solid #cccccc; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #f5f5f5 none repeat scroll left top; }
 		#wb_element_instance91 a:hover { color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #E6E6E6 none repeat scroll left top; }
 		#wb_element_instance91 a:active { color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #E6E6E6 none repeat scroll left top; }
@@ -82,20 +82,9 @@
 </head>
 
 
-<body><div class="root" style="width: 1005px; height: 754px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
+<body>{{ga_code}}<div class="root" style="width: 1005px; height: 754px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
 	
-<div id="wb_element_instance87" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 290;"><script type="text/javascript">
-				$(function() {
-					$("#wb_element_instance87").children("ul").children().each(function() {
-						if ($(this).children("ul").size() == 0) return;
-						$(this).hover(function() {
-							$(this).children("ul").css({display: "block"});
-						}, function() {
-							$(this).children("ul").css({display: "none"});
-						});
-					});
-				});
-			</script><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li class="active"><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance88" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 242;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance89" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 286;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
+<div id="wb_element_instance87" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 344;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li class="active"><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance88" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 296;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance89" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 340;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
 </div></div>
 <div class="vbox wb_container" id="wb_main" style="height: 474px; background: transparent none repeat-x scroll left top; padding: 0 0 50px 0;">
 	

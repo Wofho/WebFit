@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=1005" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="News" />
-		<meta name="generator" content="Zyro Web Site Builder" />
+		<meta name="generator" content="Zyro - Website Builder" />
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
@@ -54,12 +54,12 @@
 		.wb-stl-footer a:hover { font: normal normal 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: normal; font-weight: bold; font-style: normal; }
 		.wb-stl-footer ul { list-style-image: url('null'); }
 		body, .wb_sbg { min-width: 1005px; }
-		#wb_element_instance147 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
-		#wb_element_instance147 ul ul { background: #db0335 none repeat scroll left top; }
-		#wb_element_instance147 li { margin: 0px 10px 0px 10px; }
-		#wb_element_instance147 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
-		#wb_element_instance147 li a:hover { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
-		#wb_element_instance147 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance159 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
+		#wb_element_instance159 ul ul { background: #db0335 none repeat scroll left top; }
+		#wb_element_instance159 li { margin: 0px 10px 0px 10px; }
+		#wb_element_instance159 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
+		#wb_element_instance159 li:hover > a, #wb_element_instance159 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance159 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
 	</style>
 	<link href="css/site.css?v=1.0.3" rel="stylesheet" type="text/css" />
 		
@@ -70,21 +70,10 @@
 </head>
 
 
-<body><div class="root" style="width: 1005px;"><div class="vbox wb_container" id="wb_main" style="height: 250px;">
+<body>{{ga_code}}<div class="root" style="width: 1005px;"><div class="vbox wb_container" id="wb_main" style="height: 250px;">
 	
-<div id="wb_element_instance147" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 290;"><script type="text/javascript">
-				$(function() {
-					$("#wb_element_instance147").children("ul").children().each(function() {
-						if ($(this).children("ul").size() == 0) return;
-						$(this).hover(function() {
-							$(this).children("ul").css({display: "block"});
-						}, function() {
-							$(this).children("ul").css({display: "none"});
-						});
-					});
-				});
-			</script><ul class="hmenu"><li><a href="Home-1/" target="_self" title="Home">Home</a></li><li><a href="Exercises-1/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet-1/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements-1/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance148" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 242;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance149" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 286;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
-</div><div id="wb_element_instance150" class="wb_element" style="left: 0px; top: 170px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
+<div id="wb_element_instance159" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 344;"><ul class="hmenu"><li><a href="Home-1/" target="_self" title="Home">Home</a></li><li><a href="Exercises-1/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet-1/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements-1/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance160" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 296;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance161" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 340;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
+</div><div id="wb_element_instance162" class="wb_element" style="left: 0px; top: 170px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
@@ -92,7 +81,7 @@
 			?>
 			<script type="text/javascript">
 				$(function() {
-					var block = $("#wb_element_instance150");
+					var block = $("#wb_element_instance162");
 					var comments = block.children(".wb_comments").eq(0);
 					var contentBlock = $("#wb_main");
 					contentBlock.height(contentBlock.height() + comments.height());
@@ -103,13 +92,13 @@
 			?>
 			<script type="text/javascript">
 				$(function() {
-					$("#wb_element_instance150").hide();
+					$("#wb_element_instance162").hide();
 				});
 			</script>
 			<?php
 				}
 			?>
-			</div><div id="wb_element_instance151" class="wb_element" style="left: 0px; top: 190px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+			</div><div id="wb_element_instance163" class="wb_element" style="left: 0px; top: 190px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
@@ -119,5 +108,5 @@
 					footer.height(0);
 				}
 			});
-			</script></div></div><div class="wb_sbg" style="min-height: 1148px;"></div></div></body>
+			</script></div></div><div class="wb_sbg" style="min-height: 590px;"></div></div></body>
 </html>

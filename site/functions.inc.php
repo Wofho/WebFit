@@ -12,6 +12,13 @@ function parse_uri() {
 	}
 	$ru = preg_split('#[\ \t]*[/]+[\ \t]*#i', $ru, -1, PREG_SPLIT_NO_EMPTY);
 	$ru = array_map('trim', $ru);
+	$cusr = null;
+	if (strpos(ini_get('disable_functions'), 'get_current_user') === false) {
+		$cusr = get_current_user();
+	}
+	if ($cusr && !empty($ru) && ($ru[0] == ('~'.$cusr) || $ru[0] == ($cusr.'~'))) {
+		array_shift($ru);
+	}
 	
 	if (isset($ru[0]) && preg_match('#^[a-z]{2}-[A-Z]{2}$#', $ru[0])) {
 		array_shift($ru);
@@ -89,7 +96,7 @@ function handleComments($pageId = null) {
 				// post info to builder
 				if (function_exists('curl_init')) {
 					global $user_key, $user_hash, $comment_callback;
-					$res = http_get($comment_callback, array(
+					$res = _http_get($comment_callback, array(
 						'key'	=> $user_key,
 						'hash'	=> md5($user_key.$user_hash),
 						'id'	=> $pageId,
@@ -294,7 +301,7 @@ function trace($var, $return = false) {
 }
 }
 
-function http_get($url, $post_vars = false) {
+function _http_get($url, $post_vars = false) {
 	$post_contents = '';
 	if ($post_vars) {
 		if (is_array($post_vars)) {
@@ -373,7 +380,7 @@ if (!function_exists('json_decode')) {
 	function json_encode($data, $assoc = false) {
 		global $_json_service;
 		$_json_service->use = $assoc ? SERVICES_JSON_LOOSE_TYPE : 0;
-		return $_json_service->encode($data);
+		return $_json_service->encodeUnsafe($data);
 	}
 }
 
