@@ -54,12 +54,12 @@
 		.wb-stl-footer a:hover { font: normal normal 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: normal; font-weight: bold; font-style: normal; }
 		.wb-stl-footer ul { list-style-image: url('null'); }
 		body, .wb_sbg { min-width: 1005px; }
-		#wb_element_instance153 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
-		#wb_element_instance153 ul ul { background: #db0335 none repeat scroll left top; }
-		#wb_element_instance153 li { margin: 0px 10px 0px 10px; }
-		#wb_element_instance153 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
-		#wb_element_instance153 li:hover > a, #wb_element_instance153 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
-		#wb_element_instance153 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance154 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
+		#wb_element_instance154 ul ul { background: #db0335 none repeat scroll left top; }
+		#wb_element_instance154 li { margin: 0px 10px 0px 10px; }
+		#wb_element_instance154 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
+		#wb_element_instance154 li:hover > a, #wb_element_instance154 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance154 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
 	</style>
 	<link href="css/site.css?v=1.0.3" rel="stylesheet" type="text/css" />
 		
@@ -72,11 +72,11 @@
 
 <body>{{ga_code}}<div class="root" style="width: 1005px; height: 630px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
 	
-<div id="wb_element_instance153" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 344;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance154" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 296;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance155" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 340;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
+<div id="wb_element_instance154" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 374;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance155" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 326;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance156" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 370;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
 </div></div>
 <div class="vbox wb_container" id="wb_main" style="height: 350px; background: transparent none repeat-x scroll left top; padding: 0 0 50px 0;">
 	
-<div id="wb_element_instance156" class="wb_element" style="left: 0px; top: 0px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 255; overflow: hidden;"><?php if(isset($_POST['registration']))
+<div id="wb_element_instance157" class="wb_element" style="left: 0px; top: 0px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 257; overflow: hidden;"><?php if(isset($_POST['registration']))
 {
 $host="mysql3.000webhost.com"; // Your server
 $username="a7418760_ltemel"; // Mysql username 
@@ -89,14 +89,15 @@ mysql_select_db("$db_name")or die("cannot select DB");
 
 $username = strip_tags($_POST['username']);
 $password = strip_tags($_POST['password']);
+$email = strip_tags($_POST['email']);
 
-mysql_query("INSERT INTO members(username,password) VALUES ('$username','$password')")
+mysql_query("INSERT INTO members(username,password,email) VALUES ('$username','$password','$email')")
 
   or  die("".mysql_error());
 
 echo "Successful Registration!";
 }
-?></div><div id="wb_element_instance157" class="wb_element" style="left: 0px; top: 370px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
+?></div><div id="wb_element_instance158" class="wb_element" style="left: 0px; top: 370px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
@@ -104,7 +105,7 @@ echo "Successful Registration!";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					var block = $("#wb_element_instance157");
+					var block = $("#wb_element_instance158");
 					var comments = block.children(".wb_comments").eq(0);
 					var contentBlock = $("#wb_main");
 					contentBlock.height(contentBlock.height() + comments.height());
@@ -115,7 +116,7 @@ echo "Successful Registration!";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					$("#wb_element_instance157").hide();
+					$("#wb_element_instance158").hide();
 				});
 			</script>
 			<?php
@@ -124,7 +125,7 @@ echo "Successful Registration!";
 			</div></div>
 <div class="vbox wb_container" id="wb_footer" style="height: 80px; background: transparent none repeat-x scroll left top;">
 	
-<div id="wb_element_instance158" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+<div id="wb_element_instance159" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
