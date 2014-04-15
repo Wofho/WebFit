@@ -54,12 +54,12 @@
 		.wb-stl-footer a:hover { font: normal normal 16px Arial,Helvetica,sans-serif; text-align: left; text-decoration: none; color: #ffffff; line-height: normal; font-weight: bold; font-style: normal; }
 		.wb-stl-footer ul { list-style-image: url('null'); }
 		body, .wb_sbg { min-width: 1005px; }
-		#wb_element_instance148 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
-		#wb_element_instance148 ul ul { background: #db0335 none repeat scroll left top; }
-		#wb_element_instance148 li { margin: 0px 10px 0px 10px; }
-		#wb_element_instance148 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
-		#wb_element_instance148 li:hover > a, #wb_element_instance148 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
-		#wb_element_instance148 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance147 ul { background: transparent none repeat scroll left top; border: 1px none #000000; text-align: center; }
+		#wb_element_instance147 ul ul { background: #db0335 none repeat scroll left top; }
+		#wb_element_instance147 li { margin: 0px 10px 0px 10px; }
+		#wb_element_instance147 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
+		#wb_element_instance147 li:hover > a, #wb_element_instance147 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance147 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
 	</style>
 	<link href="css/site.css?v=1.0.3" rel="stylesheet" type="text/css" />
 		
@@ -72,24 +72,25 @@
 
 <body>{{ga_code}}<div class="root" style="width: 1005px; height: 630px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
 	
-<div id="wb_element_instance148" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 374;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance149" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 326;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance150" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 370;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
+<div id="wb_element_instance147" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 344;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance148" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 296;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance149" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 340;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
 </div></div>
 <div class="vbox wb_container" id="wb_main" style="height: 350px; background: transparent none repeat-x scroll left top; padding: 0 0 50px 0;">
 	
-<div id="wb_element_instance151" class="wb_element" style="left: 0px; top: 0px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 260; overflow: hidden;"><?php $host="mysql3.000webhost.com";
-$username="a7418760_ltemel";
-$password="mamatideba5";
-$db_name="a7418760_custom";
-$tbl_name="members";
+<div id="wb_element_instance150" class="wb_element" style="left: 0px; top: 0px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 258; overflow: hidden;"><?php $host="mysql3.000webhost.com"; // Your server
+$username="a7418760_ltemel"; // Mysql username 
+$password="mamatideba5"; // Mysql password 
+$db_name="a7418760_custom"; // Database name 
+$tbl_name="members"; // Table name 
 
+// Connect to server and select databse.
 mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
 
-
+// username and password sent from form 
 $username=$_POST['username']; 
 $password=$_POST['password']; 
 
-
+// To protect MySQL injection
 $username = stripslashes($username);
 $password = stripslashes($password);
 $username = mysql_real_escape_string($username);
@@ -105,12 +106,12 @@ while ($line = mysql_fetch_assoc($result)) {
 
 if ($count == 1) {
 	 $_SESSION['loggedIn'] = "true";
-	 header("Location: 13.php");
+	 header("Location: 1.php");
 }
 else {
 echo "Wrong Username or Password";
 }
-?></div><div id="wb_element_instance152" class="wb_element" style="left: 0px; top: 370px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
+?></div><div id="wb_element_instance151" class="wb_element" style="left: 0px; top: 370px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
@@ -118,7 +119,7 @@ echo "Wrong Username or Password";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					var block = $("#wb_element_instance152");
+					var block = $("#wb_element_instance151");
 					var comments = block.children(".wb_comments").eq(0);
 					var contentBlock = $("#wb_main");
 					contentBlock.height(contentBlock.height() + comments.height());
@@ -129,7 +130,7 @@ echo "Wrong Username or Password";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					$("#wb_element_instance152").hide();
+					$("#wb_element_instance151").hide();
 				});
 			</script>
 			<?php
@@ -138,7 +139,7 @@ echo "Wrong Username or Password";
 			</div></div>
 <div class="vbox wb_container" id="wb_footer" style="height: 80px; background: transparent none repeat-x scroll left top;">
 	
-<div id="wb_element_instance153" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+<div id="wb_element_instance152" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");

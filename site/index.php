@@ -11,10 +11,7 @@ error_reporting(E_ALL); @ini_set('display_errors', true);
 		'7'	=> array('id' => '8', 'alias' => 'login', 'file' => '8.php'),
 		'8'	=> array('id' => '9', 'alias' => 'signup', 'file' => '9.php'),
 		'9'	=> array('id' => '10', 'alias' => 'checklogin', 'file' => '10.php'),
-		'10'	=> array('id' => '11', 'alias' => 'check', 'file' => '11.php'),
-		'11'	=> array('id' => '12', 'alias' => 'forgotten', 'file' => '12.php'),
-		'12'	=> array('id' => '13', 'alias' => 'success', 'file' => '13.php'),
-		'13'	=> array('id' => '14', 'alias' => 'logout', 'file' => '14.php')
+		'10'	=> array('id' => '11', 'alias' => 'check', 'file' => '11.php')
 	);
 	$forms = array(
 
