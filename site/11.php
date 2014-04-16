@@ -60,6 +60,10 @@
 		#wb_element_instance154 li a { text-transform: none; border: 0px none #000000; padding: 10px 50px 10px 50px; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #ffffff; line-height: 20px; background: transparent none repeat scroll left top; }
 		#wb_element_instance154 li:hover > a, #wb_element_instance154 li:focus > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
 		#wb_element_instance154 li.active > a { border: 0px none #000000; font: normal bold 18px Arial,Helvetica,sans-serif; text-decoration: none; color: #363636; line-height: 20px; background: transparent none no-repeat scroll center bottom; }
+		#wb_element_instance157 a { width: 100%; height: 100%; font-family: Helvetica,Arial,sans-serif; font-size: 14px; text-align: center; border: 1px solid #cccccc; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #f5f5f5 none repeat scroll left top; }
+		#wb_element_instance157 a:hover { color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #E6E6E6 none repeat scroll left top; }
+		#wb_element_instance157 a:active { color: #333333; font-style: normal; font-weight: normal; text-decoration: none; background: #E6E6E6 none repeat scroll left top; }
+		#wb_element_instance157 a span { padding: 4px 0px 0px 0px; }
 	</style>
 	<link href="css/site.css?v=1.0.3" rel="stylesheet" type="text/css" />
 		
@@ -70,19 +74,19 @@
 </head>
 
 
-<body>{{ga_code}}<div class="root" style="width: 1005px; height: 630px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
+<body>{{ga_code}}<div class="root" style="width: 1005px; height: 640px;"><div class="vbox wb_container" id="wb_header" style="height: 150px; background: transparent none repeat scroll left top;">
 	
-<div id="wb_element_instance154" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 374;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li></ul></div><div id="wb_element_instance155" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 326;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance156" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 370;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
-</div></div>
-<div class="vbox wb_container" id="wb_main" style="height: 350px; background: transparent none repeat-x scroll left top; padding: 0 0 50px 0;">
+<div id="wb_element_instance154" class="wb_element" style="left: 0px; top: 100px; width: 1000px; height: 40px; min-width: 1000px; min-height: 40px; z-index: 424;"><ul class="hmenu"><li><a href="Home/" target="_self" title="Home">Home</a></li><li><a href="Exercises/" target="_self" title="Exercises">Exercises</a></li><li><a href="Diet/" target="_self" title="Diet">Diet</a></li><li><a href="Supplements/" target="_self" title="Supplements">Supplements</a></li><li><a href="Contact/" target="_self" title="Contact">Contact</a></li></ul></div><div id="wb_element_instance155" class="wb_element" style="left: 0px; top: 90px; width: 1000px; height: 60px; min-width: 1000px; min-height: 60px; z-index: 376;"><div style="background: #db0335; border: 0px solid #C0C0C0; opacity: 1; border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; width: 1000px; height: 60px;"></div></div><div id="wb_element_instance156" class="wb_element" style="left: 0px; top: 23px; width: 530px; height: 40px; min-width: 530px; min-height: 40px; z-index: 420;  line-height: normal;"><h4 class="wb-stl-pagetitle" style="text-align: left;">I want to get fit</h4>
+</div><div id="wb_element_instance157" class="wb_element" style="left: 930px; top: 10px; width: 70px; height: 30px; min-width: 70px; min-height: 30px; z-index: 421;"><a class="wb_button" href="login/"><span>Log In</span></a></div></div>
+<div class="vbox wb_container" id="wb_main" style="height: 360px; background: transparent none repeat-x scroll left top; padding: 0 0 50px 0;">
 	
-<div id="wb_element_instance157" class="wb_element" style="left: 0px; top: 0px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 257; overflow: hidden;"><?php if(isset($_POST['registration']))
+<div id="wb_element_instance158" class="wb_element" style="left: 0px; top: 10px; width: 1000px; height: 350px; min-width: 1000px; min-height: 350px; z-index: 261; overflow: hidden;"><?php if(isset($_POST['registration']))
 {
-$host="mysql3.000webhost.com"; // Your server
-$username="a7418760_ltemel"; // Mysql username 
-$password="mamatideba5"; // Mysql password 
-$db_name="a7418760_custom"; // Database name 
-$tbl_name="members"; // Table name 
+$host="mysql3.000webhost.com";
+$username="a7418760_ltemel";
+$password="mamatideba5";
+$db_name="a7418760_custom";
+$tbl_name="members";
 
 mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
 mysql_select_db("$db_name")or die("cannot select DB");
@@ -97,7 +101,7 @@ mysql_query("INSERT INTO members(username,password,email) VALUES ('$username','$
 
 echo "Successful Registration!";
 }
-?></div><div id="wb_element_instance158" class="wb_element" style="left: 0px; top: 370px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
+?></div><div id="wb_element_instance159" class="wb_element" style="left: 0px; top: 380px; min-width: 0px; min-height: 0px; z-index: 9000; width: 100%;">
 			<?php
 				global $show_comments;
 				if (isset($show_comments) && $show_comments) {
@@ -105,7 +109,7 @@ echo "Successful Registration!";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					var block = $("#wb_element_instance158");
+					var block = $("#wb_element_instance159");
 					var comments = block.children(".wb_comments").eq(0);
 					var contentBlock = $("#wb_main");
 					contentBlock.height(contentBlock.height() + comments.height());
@@ -116,7 +120,7 @@ echo "Successful Registration!";
 			?>
 			<script type="text/javascript">
 				$(function() {
-					$("#wb_element_instance158").hide();
+					$("#wb_element_instance159").hide();
 				});
 			</script>
 			<?php
@@ -125,7 +129,7 @@ echo "Successful Registration!";
 			</div></div>
 <div class="vbox wb_container" id="wb_footer" style="height: 80px; background: transparent none repeat-x scroll left top;">
 	
-<div id="wb_element_instance159" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
+<div id="wb_element_instance160" class="wb_element" style="left: 0px; top: 20px; min-width: 0px; min-height: 0px; z-index: 9999; text-align: center; width: 100%;"><div class="wb_footer"></div><script type="text/javascript">
 			$(function() {
 				var footer = $(".wb_footer");
 				var html = (footer.html() + "").replace(/^\s+|\s+$/g, "");
@@ -135,5 +139,5 @@ echo "Successful Registration!";
 					footer.height(80);
 				}
 			});
-			</script></div></div><div class="wb_sbg" style="min-height: 630px;"></div></div></body>
+			</script></div></div><div class="wb_sbg" style="min-height: 640px;"></div></div></body>
 </html>

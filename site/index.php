@@ -14,7 +14,11 @@ error_reporting(E_ALL); @ini_set('display_errors', true);
 		'10'	=> array('id' => '11', 'alias' => 'check', 'file' => '11.php'),
 		'11'	=> array('id' => '12', 'alias' => 'forgotten', 'file' => '12.php'),
 		'12'	=> array('id' => '13', 'alias' => 'success', 'file' => '13.php'),
-		'13'	=> array('id' => '14', 'alias' => 'logout', 'file' => '14.php')
+		'13'	=> array('id' => '14', 'alias' => 'logout', 'file' => '14.php'),
+		'14'	=> array('id' => '15', 'alias' => 'plan', 'file' => '15.php'),
+		'15'	=> array('id' => '16', 'alias' => 'bodyfat', 'file' => '16.php'),
+		'16'	=> array('id' => '17', 'alias' => 'bfpercent', 'file' => '17.php'),
+		'17'	=> array('id' => '18', 'alias' => 'Contact', 'file' => '18.php')
 	);
 	$forms = array(
 
