@@ -55,6 +55,7 @@ error_reporting(E_ALL); @ini_set('display_errors', true);
 				$ga_out = str_replace('{{ga_code}}', $ga_code, file_get_contents(dirname(__FILE__).'/ga.php'));
 			}
 			$out = str_replace('{{ga_code}}', $ga_out, $out);
+			$out = str_replace('{{base_url}}', 'http://'.$_SERVER['HTTP_HOST'].'/', $out);
 			header('Content-type: text/html; charset=utf-8', true);
 			echo $out;
 		}
